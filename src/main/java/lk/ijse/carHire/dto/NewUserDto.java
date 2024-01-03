@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 public class NewUserDto {
     private String crUserName;
     private String crUserPassword;
-    private String cnfrmUserPassword;
+
 
 }

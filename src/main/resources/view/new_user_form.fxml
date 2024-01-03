@@ -25,23 +25,9 @@
             <Font name="Bell MT Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="42.0" layoutY="233.0" text="Confirm Password">
-         <font>
-            <Font name="Bell MT Bold" size="18.0" />
-         </font>
-      </Label>
       <TextField fx:id="createUserNameText" layoutX="206.0" layoutY="132.0" prefHeight="26.0" prefWidth="327.0" />
       <TextField fx:id="createPasswordText" layoutX="207.0" layoutY="179.0" prefHeight="26.0" prefWidth="327.0" />
-      <TextField fx:id="confirmPasswordText" layoutX="207.0" layoutY="231.0" prefHeight="26.0" prefWidth="327.0" />
-      <Button layoutX="507.0" layoutY="295.0" mnemonicParsing="false" style="-fx-background-color: rgba(189, 195, 199,1.0);" text="Cancel">
-         <font>
-            <Font name="Calibri Bold" size="14.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </Button>
-      <Button layoutX="443.0" layoutY="295.0" mnemonicParsing="false" onAction="#btnCreateUserAction" style="-fx-background-color: rgba(189, 195, 199,1.0);" text="Create">
+      <Button layoutX="475.0" layoutY="288.0" mnemonicParsing="false" onAction="#btnCreateUserAction" style="-fx-background-color: rgba(189, 195, 199,1.0);" text="Create">
          <font>
             <Font name="Calibri Bold" size="14.0" />
          </font>
